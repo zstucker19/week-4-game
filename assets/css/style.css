@@ -15,19 +15,19 @@ body {
 	background-color: #fee7ca;
 	color: green;
 	font-size: 20px;
-}
-
-#line-3 {
-	height: 60px;
+	line-height: 150%;
 }
 
 #current-score {
 	background-color: green;
+	padding-bottom: 70px;
 	font-size: 50px;
 }
 
 #wins-losses {
 	background-color: lightblue;
+	padding-bottom: 20px;
+	line-height: 50px;
 }
 
 .crystal-image {
@@ -44,6 +44,6 @@ body {
 
 #total-score-number {
 	background-color: teal;
-	line-height: 100px;
+	padding-bottom: 80px;
 	font-size: 40px;
 }
