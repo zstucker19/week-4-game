@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+
+	<title>Crystal Game</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+
+</head>
+<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<h1 id="header">Crystal Collector!</h1>
+				</div>
+			</div>
+		</div>
+	<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 paragraph-text">
+					<p><strong>You will be given a random number at the start of the game.</strong></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 paragraph-text">
+					<p><strong>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</strong></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 paragraph-text">
+					<p><strong>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</strong></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 paragraph-text">
+					<p><strong>The value of each crystal is hidden from you until you click on it.</strong></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 paragraph-text">
+					<p><strong>Each time when the game starts, the game will change the values of each crystal.</strong></p>
+				</div>
+			</div>
+		</div>
+	<br>
+		<div class="container">
+			<div class="row" id="line-3">
+				<div class="col-md-3" id="current-score">
+					<h1 id="current-number">0</h1>
+				</div>
+				<div class="col-md-1">
+				</div>
+				<div class="col-md-2" id="wins-losses">
+					<div class="row">
+						<div class="col-md-12">
+							<h6>Wins: <span id="win-change">0</span></h6>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<h6>Losses: <span id="loss-change">0</span></h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<br>
+		<div class="container">
+			<div class="row">
+
+				<div class="col-md-2">
+					<button class="btn">
+						<img class="crystal-image" id="img-1" src="assets/images/crystal-1.jpg">
+					</button>
+				</div>
+
+				<div class="col-md-2">
+					<button class="btn">
+						<img class="crystal-image" id="img-2" src="assets/images/crystal-2.jpg">
+					</button>
+				</div>
+
+				<div class="col-md-2">
+					<button class="btn">
+						<img class="crystal-image" id="img-3" src="assets/images/crystal-3.jpg">
+					</button>
+				</div>
+
+				<div class="col-md-2">
+					<button class="btn">
+						<img class="crystal-image" id="img-4" src="assets/images/crystal-4.jpg">
+					</button>
+				</div>
+
+			</div>
+		</div>
+	<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3" id="total-score-text">
+					<h5>Your total score is: </h5>
+				</div>
+			</div>
+		</div>
+	<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3" id="total-score-number">
+					<h1 id="total-number">0</h1>
+				</div>
+			</div>
+		</div>
+
+</body>
+</html>

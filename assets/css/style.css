@@ -1,0 +1,49 @@
+body {
+	background-image: url("../images/background-img-week-4-game.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+#header {
+	background-color: orange;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+}
+
+.paragraph-text {
+	background-color: #fee7ca;
+	color: green;
+	font-size: 20px;
+}
+
+#line-3 {
+	height: 60px;
+}
+
+#current-score {
+	background-color: green;
+	font-size: 50px;
+}
+
+#wins-losses {
+	background-color: lightblue;
+}
+
+.crystal-image {
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+
+#total-score-text {
+	background-color: teal;
+	font-size: 16px;
+}
+
+#total-score-number {
+	background-color: teal;
+	line-height: 100px;
+	font-size: 40px;
+}
