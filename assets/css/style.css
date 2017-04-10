@@ -20,8 +20,8 @@ body {
 
 #current-score {
 	background-color: green;
-	padding-bottom: 70px;
-	font-size: 50px;
+	padding-bottom: 80px;
+	font-size: 40px;
 }
 
 #wins-losses {

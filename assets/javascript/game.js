@@ -10,8 +10,8 @@ $(document).ready(function() {
 	var losses = 0;
 	var initialized = false;
 
-	//displays the first number we are searching for on page
-	$("#current-number").html(randomEndNum);
+	//displays opening message
+	$("#current-number").html("Click a Crystal!");
 
 	//Starting point to begin game
 	var initializeGame = function() {
