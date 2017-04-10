@@ -1,21 +1,33 @@
 $(document).ready(function() {
 
 	//Declare Variables
-	var possibleNumArray = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
-	var possibleEndArray = [50, 60, 70, 80, 90, 100];
+
+
+	var possibleEndArray = [];
+		//push all numbers between 19 and 120 into an array
+		for(var i = 19; i < 121; i++) {
+			possibleEndArray.push(i);
+		}
+
+	var possibleNumArray = [];
+		//push all numbers between 1 and 12 into an array
+		for(var i = 1; i < 13; i++) {
+			possibleNumArray.push(i);
+		}
+
 	var randomNumCrystal;
-	var randomEndNum = possibleEndArray[Math.floor(Math.random() * possibleEndArray.length)];
+	var randomEndNum;
 	var totalValue = 0;
 	var wins = 0;
 	var losses = 0;
 	var initialized = false;
-
+	console.log(possibleEndArray)
 	//displays opening message
 	$("#current-number").html("Click a Crystal!");
 
 	//Starting point to begin game
 	var initializeGame = function() {
-		
+
 	//resets our running total
 	totalValue = 0;
 
