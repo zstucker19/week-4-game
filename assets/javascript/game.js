@@ -15,9 +15,10 @@ $(document).ready(function() {
 
 	//Starting point to begin game
 	var initializeGame = function() {
-	possibleNumArray = [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
-	randomNumCrystal;
+		
+	//resets our running total
 	totalValue = 0;
+
 	//finds our random end number
 	for(i = 0; i < possibleEndArray.length; i++) {
 		randomEndNum = possibleEndArray[Math.floor(Math.random() * possibleEndArray.length)];
